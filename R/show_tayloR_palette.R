@@ -31,7 +31,7 @@ show_tayloR_palette <- function(palette_name) {
 
   # Display the color palette
   cols <- palettes[[palette_name]]
-  ggplot() +
+  ggplot2() +
     geom_tile(aes(x=1:10, y=1, fill=factor(1:10))) +
     scale_fill_manual(values = cols) +
     theme_void() +
