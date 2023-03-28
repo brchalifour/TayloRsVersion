@@ -1,0 +1,9 @@
+Package: TayloRsVersion
+Type: Package
+Title: Beautiful R Color Palettes Inspired by Taylor's Albums
+Version: 0.1.0
+Author: Bridget Chalifour
+Maintainer: Bridget Chalifour <bridget.chalifour@colorado.edu>
+Description: Create color palettes of up to 10 colors inspired by Taylor Swift albums.
+Encoding: UTF-8
+LazyData: true
