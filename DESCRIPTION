@@ -7,4 +7,5 @@ Maintainer: Bridget Chalifour <bridget.chalifour@colorado.edu>
 Description: Create color palettes of up to 10 colors inspired by Taylor Swift albums.
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2
+Imports: ggplot2,
+         rlang
