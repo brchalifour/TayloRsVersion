@@ -20,8 +20,8 @@ This is a basic example which shows you how to use TayloRsVersion. For fun, let'
 
 ``` r
 # Run once: 
-devtools::install_github("brchalifour/TayloRsVersion")`
-library(TayloRsVersion)`
+devtools::install_github("brchalifour/TayloRsVersion")
+library(TayloRsVersion)
 library(ggplot2)
 
 # Read in data
@@ -32,13 +32,18 @@ songs_count <- table(songs$Album)
 
 # Create a pie chart of my favorite songs by album:
 
-pie(songs_count, main="My Favorite TS Songs by Album", col=TayloR_palette("midnights2"))
+pie(songs_count, main="My Favorite TS Songs by Album", col = tayloR_palette("lover"))
 
 ```
+This produces the following output:
+
+![Top 20 Favorite Taylor Songs](Top20.png)
 
 If I'm not sure what palette I want to use, I can view palettes this way:
 
 ``` r
-show_TayloR_palette("lover")
+show_TayloR_palette("midnights")
 ```
+Which produces the following output:
 
+![Midnights Colors](midnights.png)
