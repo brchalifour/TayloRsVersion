@@ -4,7 +4,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-This package contains color palettes for R data visualization that are inspired by Queen Taylor Swift's albums and eras. I am in no way associated with Taylor (but would love to be).
+This package contains color palettes for R data visualization that are inspired by Queen Taylor Swift's albums and eras. I am in no way associated with Taylor (but would love to be). Below, here are all of the palettes currently available. These will be updated as Taylor's Versions become available.
+
+![All Palettes](tay_pals.png)
 
 ## Installation
 
@@ -47,3 +49,7 @@ show_TayloR_palette("midnights")
 Which produces the following output:
 
 ![Midnights Colors](midnights.png)
+
+If you use TayloRsVersion, please let me know! I would love to see what you create.
+
+### Taylor, please notice me.
