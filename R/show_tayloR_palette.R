@@ -23,7 +23,10 @@ show_tayloR_palette <- function(palette_name) {
     evermore = tayloR_palette("evermore"),
     evermore2 = tayloR_palette("evermore2"),
     midnights = tayloR_palette("midnights"),
-    midnights2 = tayloR_palette("midnights2")
+    midnights2 = tayloR_palette("midnights2"),
+    all_albums = tayloR_palette("all_albums"),
+    all_albums2 = tayloR_palette("all_albums2"),
+    karma = tayloR_palette("karma")
   )
 
   # Check if the requested palette exists
@@ -43,4 +46,3 @@ show_tayloR_palette <- function(palette_name) {
              size = 8, color = "white", fontface = "bold") +
     guides(fill = "none")
 }
-
