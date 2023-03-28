@@ -59,7 +59,7 @@ ggplot(data = songs_countdf) +
 pie(songs_count, main="My Favorite TS Songs by Album", col = tayloR_palette("lover"))
 
 ```
-These produce the following output, first, a bar plot of favorite songs by album, then a pie chart:
+These produce the following output, first, a Fearless bar plot of favorite songs by album, then a Loverly pie chart:
 
 ![Top 20 Favorite Taylor Songs - Bar Plot](Bar_plot_songs.png)
 
