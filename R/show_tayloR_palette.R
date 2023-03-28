@@ -29,10 +29,9 @@ show_tayloR_palette <- function(palette_name) {
     stop(paste0("Palette '", palette_name, "' not found."))
   }
   
-  require(ggplot2)
   # Display the color palette
   cols <- palettes[[palette_name]]
-  ggplot2() +
+  ggplot() +
     geom_tile(aes(x=1:10, y=1, fill=factor(1:10))) +
     scale_fill_manual(values = cols) +
     theme_void() +
