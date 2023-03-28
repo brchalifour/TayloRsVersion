@@ -61,9 +61,9 @@ pie(songs_count, main="My Favorite TS Songs by Album", col = tayloR_palette("lov
 ```
 These produce the following output, first, a Fearless bar plot of favorite songs by album, then a Loverly pie chart:
 
-![Top 20 Favorite Taylor Songs - Bar Plot](Bar_plot_songs.png)
+![Top 20 Favorite Taylor Songs - Bar Plot](images/Bar_plot_songs.png)
 
-![Top 20 Favorite Taylor Songs - Pie Chart](Top20.png)
+![Top 20 Favorite Taylor Songs - Pie Chart](images/Top20.png)
 
 If I'm not sure what palette I want to use, I can view palettes this way:
 
@@ -72,7 +72,7 @@ show_TayloR_palette("midnights")
 ```
 Which produces the following output:
 
-![Midnights Colors](midnights.png)
+![Midnights Colors](images/midnights.png)
 
 If you use TayloRsVersion, please let me know! I would love to see what you create. 
 
