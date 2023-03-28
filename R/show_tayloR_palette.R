@@ -1,3 +1,5 @@
+usethis::use_package("ggplot2")
+
 show_tayloR_palette <- function(palette_name) {
 
   # Define a list of pre-defined color palettes
