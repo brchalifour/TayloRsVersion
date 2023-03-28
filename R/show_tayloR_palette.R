@@ -28,7 +28,8 @@ show_tayloR_palette <- function(palette_name) {
   if (!(palette_name %in% names(palettes))) {
     stop(paste0("Palette '", palette_name, "' not found."))
   }
-
+  
+  library(ggplot2)
   # Display the color palette
   cols <- palettes[[palette_name]]
   ggplot2() +
