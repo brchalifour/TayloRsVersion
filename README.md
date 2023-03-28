@@ -17,7 +17,7 @@ Below, here are all of the palettes currently available. These will be updated a
 To install TayloRsVersion, run the following in your `R` console:
 
 ``` r
-`devtools::install_github("brchalifour/TayloRsVersion")`.
+devtools::install_github("brchalifour/TayloRsVersion")
 ```
 
 ## Example
