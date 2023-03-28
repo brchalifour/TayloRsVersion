@@ -39,6 +39,9 @@ tayloR_palette <- function(palette_name, n = 10) {
 
   if(palette_name == "midnights2") return(c("#11159c", "#4eadd6", "#d2aec1", "#b17ba1", "#73dde1", "#15616d", "#9345b3",  "#789bd4", "#CFD11A", "#724CF9")[1:n])
 
+  if(palette_name == "all_albums") return(c("#9BBD4C", "#F0DE42", "#C45AB3", "#9B1D20", "#99B2DD", "#25272D", "#FF85C2", "#94A3B3", "#B87D4B", "#11159c")[1:n])
+  
+  if(palette_name == "all_albums2") return(c("#8AE9C1", "#FCD757", "#885A89", "#F15025", "#AFC1D6", "#1B3022", "#EDC7CF",  "#86A397", "#524632", "#0B6884")[1:n])
+  
+  if(palette_name == "karma") return(c("#f69d0d", "#f45608", "#f41c34", "#e2068d", "#c200fb", "#2e005d", "#1957db",  "#7ea3f1", "#b83700", "#fbc55f")[1:n])
 }
-
-
