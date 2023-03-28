@@ -10,7 +10,7 @@ This package contains color palettes for R data visualization that are inspired 
 
 Below, here are all of the palettes currently available. These will be updated as Taylor's Versions become available.
 
-![All Palettes](tay_pals.png)
+![All Palettes](images/tay_pals.png)
 
 ## Installation
 
