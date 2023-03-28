@@ -52,18 +52,24 @@ ggplot(data = songs_countdf) +
   theme(axis.text.x = element_text(size = 12, angle = 30, hjust = 1)) +
   theme(axis.text.y = element_text(size = 12)) +
   theme(axis.title.x = element_text(size = 14, face = "bold")) +
-  theme(axis.title.y = element_text(size = 14, face = "bold"))
-  
-# Create a pie chart of my favorite songs by album:
-
-pie(songs_count, main="My Favorite TS Songs by Album", col = tayloR_palette("lover"))
-
+  theme(axis.title.y = element_text(size = 14, face = "bold")) 
 ```
-These produce the following output, first, a Fearless bar plot of favorite songs by album, then a Loverly pie chart:
+This produces the following output, a Fearless bar plot of favorite songs by album:
 
 ![Top 20 Favorite Taylor Songs - Bar Plot](images/Bar_plot_songs.png)
 
-![Top 20 Favorite Taylor Songs - Pie Chart](images/Top20.png)
+Or, I can look at my favorite songs by album genre:
+
+``` r
+# Count the number of songs per genre
+genre_count <- table(songs$Genre)
+
+# Create a pie chart of my favorite songs by album genre:
+pie(genre_count, main="My Favorite TS Songs by Genre", col = tayloR_palette("lover2"))
+```
+This produces the following output, a Loverly pie chart of favorite songs by genre:
+
+![Top 20 Favorite Taylor Songs - Pie Chart](images/genre_pie.png)
 
 If I'm not sure what palette I want to use, I can view palettes this way:
 
