@@ -75,3 +75,5 @@ Which produces the following output:
 If you use TayloRsVersion, please let me know! I would love to see what you create.
 
 ### Taylor, please notice me.
+
+![Taylor Being Cute](https://media.giphy.com/media/17YGKHTrrkOV8XdPWi/giphy.gif?cid=ecf05e47wkkvos9j71m9goid571svpxvi902utab5zy1vfij&rid=giphy.gif&ct=g)
