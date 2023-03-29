@@ -74,7 +74,7 @@ This produces the following output, a Loverly pie chart of favorite songs by gen
 If I'm not sure what palette I want to use, I can view palettes this way:
 
 ``` r
-show_TayloR_palette("midnights")
+show_tayloR_palette("midnights")
 ```
 Which produces the following output:
 
