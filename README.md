@@ -1,5 +1,7 @@
 # TayloRsVersion
 
+## Description (It's me! Hi!)
+
 This package contains color palettes for R data visualization that are inspired by Queen Taylor Swift's albums and eras. I am in no way associated with Taylor (but would love to be), I just stayed up way too late one night doing this because I'm the problem, it's me.
 
 ![AHHHH](https://media.giphy.com/media/5ymIg7UX6i7F6/giphy.gif?cid=ecf05e47ahruwlhll6avsxs1yt608siwacdeln2mvvjc5pgc&rid=giphy.gif&ct=g)
