@@ -6,7 +6,7 @@ This package contains color palettes for R data visualization that are inspired 
 
 ![AHHHH](https://media.giphy.com/media/5ymIg7UX6i7F6/giphy.gif?cid=ecf05e47ahruwlhll6avsxs1yt608siwacdeln2mvvjc5pgc&rid=giphy.gif&ct=g)
 
-## Available Album Palettes (From lavender haze to burning red)
+## Available Palettes (From lavender haze to burning red)
 
 Below, here are all of the palettes currently available. These will be updated as Taylor's Versions become available.
 
