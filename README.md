@@ -4,7 +4,7 @@ This package contains color palettes for R data visualization that are inspired 
 
 ![AHHHH](https://media.giphy.com/media/5ymIg7UX6i7F6/giphy.gif?cid=ecf05e47ahruwlhll6avsxs1yt608siwacdeln2mvvjc5pgc&rid=giphy.gif&ct=g)
 
-## Available Album Palettes (From ocean blue to burning red)
+## Available Album Palettes (From lavender haze to burning red)
 
 Below, here are all of the palettes currently available. These will be updated as Taylor's Versions become available.
 
@@ -73,6 +73,8 @@ This produces the following output, a Loverly pie chart of favorite songs by gen
 
 ![Top 20 Favorite Taylor Songs - Pie Chart](images/genre_pie.png)
 
+## Other Functions
+
 If I'm not sure what palette I want to use, I can view palettes this way:
 
 ``` r
@@ -81,6 +83,17 @@ show_tayloR_palette("midnights")
 Which produces the following output:
 
 ![Midnights Colors](images/midnights.png)
+
+In the spirit of inclusivity, I have added a function to show what palettes look like with different forms of colorblindness. For instance, I can run the following command:
+
+``` r
+test_colorblindness("lover")
+```
+Which produces the following output, showing how the Lover palette appears under varying forms of colorblindness.
+
+![Lover Colorblind Test](images/lover_tcb.png)
+
+## Long Story Short...
 
 If you use TayloRsVersion, please let me know! I would love to see what you create. 
 
