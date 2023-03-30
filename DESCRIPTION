@@ -11,6 +11,5 @@ LazyData: true
 Imports: 
     ggplot2,
     rlang,
-    couplet,
     colorblindr,
     cowplot
