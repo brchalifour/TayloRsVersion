@@ -10,4 +10,5 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     ggplot2,
-    rlang
+    rlang,
+    colorblindcheck
