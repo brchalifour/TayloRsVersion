@@ -8,6 +8,9 @@ Description: Create color palettes of up to 10 colors inspired by Taylor Swift a
 License: None
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2,
-         rlang
-RoxygenNote: 7.1.1
+Imports: 
+    ggplot2,
+    rlang,
+    couplet,
+    colorblindr,
+    cowplot
