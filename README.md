@@ -1,4 +1,4 @@
-# TayloRsVersion
+# `TayloRsVersion`: R Color Palettes, but Taylor's Version
 
 ## Description (It's me! Hi!)
 
