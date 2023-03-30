@@ -1,7 +1,7 @@
-
 # TayloRsVersion
 
 <!-- badges: start -->
+https://img.shields.io/github/release/brchalifour/TayloRsVersion.svg?label=version
 <!-- badges: end -->
 
 This package contains color palettes for R data visualization that are inspired by Queen Taylor Swift's albums and eras. I am in no way associated with Taylor (but would love to be), I just stayed up way too late one night doing this because I'm the problem, it's me.
@@ -20,6 +20,12 @@ To install TayloRsVersion, run the following in your `R` console:
 
 ``` r
 devtools::install_github("brchalifour/TayloRsVersion")
+```
+
+To list the names of all palettes available on TayloRsVersion, run the following in your `R` console:
+
+``` r
+list_tayloR_palettes()
 ```
 
 ## Examples (Look what you made me do)
