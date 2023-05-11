@@ -43,6 +43,7 @@ show_tayloR_palette <- function(palette_name) {
     theme_void() +
     annotate(geom = "text", x = 5, y = 1,
              label = paste0("Palette: '", palette_name, "'"),
-             size = 8, color = "white", fontface = "bold") +
+             size = 8, color = "white", fontface = "bold", 
+             hjust = 0.5, vjust = 0.5) +
     guides(fill = "none")
 }
