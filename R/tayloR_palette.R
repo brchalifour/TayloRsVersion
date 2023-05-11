@@ -7,9 +7,9 @@ tayloR_palette <- function(palette_name, n = 10) {
 
   if(palette_name == "fearless_TV2") return(c("#efc619", "#949e63", "#85C7F2", "#cab35d", "#ebdb7a", "#ee964b", "#B66D0D", "#CBE896", "#DCABDF", "#F6DB79")[1:n])
 
-  if(palette_name == "speak_now") return(c("#d5528e", "#4f3261", "#c97cae", "#e1ae7c", "#2d2560", "#e7a3c4", "#803f95", "#b286bf", "#97314b", "#be7074")[1:n])
+  if(palette_name == "speak_now_TV") return(c("#5d3161", "#c19889", "#92658e", "#e76e7f", "#3e1f4b", "#9c516e", "#90417e", "#eb8e9b", "#fbbfaf", "#7c472f")[1:n])
 
-  if(palette_name == "speak_now2") return(c("#6f2dbd", "#a663cc", "#b298dc", "#b8d0eb", "#b9faf8", "#d264b6", "#631d76", "#7364d2", "#dc93f6", "#eec7fc")[1:n])
+  if(palette_name == "speak_now_TV2") return(c("#d5528e", "#4f3261", "#c97cae", "#e1ae7c", "#2d2560", "#e7a3c4", "#803f95", "#b286bf", "#97314b", "#be7074")[1:n])
 
   if(palette_name == "red_TV") return(c("#961710", "#8a6d58", "#290c07", "#691801", "#acae9c", "#57503b", "#ab3b32", "#c0a78f", "#71503a", "#739b9c")[1:n])
 
