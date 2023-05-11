@@ -8,7 +8,7 @@ This package contains color palettes for R data visualization that are inspired 
 
 ## Available Palettes (From lavender haze to burning red)
 
-Below, here are all of the palettes currently available. These will be updated as Taylor's Versions become available.
+Below, here are all of the palettes currently available. These will be updated as Taylor's Versions become available; this most recent update now include Speak Now (TV), which will become availble July 7th!
 
 ![All Palettes](images/tay_pals.jpg)
 
