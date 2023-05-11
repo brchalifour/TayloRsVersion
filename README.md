@@ -71,11 +71,13 @@ Or, I can look at my favorite songs by album genre:
 genre_count <- table(songs$Genre)
 
 # Create a pie chart of my favorite songs by album genre:
-pie(genre_count, main="My Favorite TS Songs by Genre", col = tayloR_palette("lover2"))
+par(mar=c(0,0,2,2)) # adjust the margin size
+pie(genre_count, main="My Favorite TS Songs by Genre", col = tayloR_palette("fearless_TV2"), radius = 1.5)
+title(main="My Favorite TS Songs by Genre", cex.main = 1.2) # adjust the title size
 ```
-This produces the following output, a Loverly pie chart of favorite songs by genre:
+This produces the following output, a Fearless pie chart of favorite songs by genre:
 
-![Top 20 Favorite Taylor Songs - Pie Chart](images/genre_pie.png)
+![Top 20 Favorite Taylor Songs - Pie Chart](images/fearless_pie.png)
 
 ## Other Functions
 
