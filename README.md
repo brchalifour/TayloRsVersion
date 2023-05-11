@@ -79,6 +79,14 @@ This produces the following output, a Fearless pie chart of favorite songs by ge
 
 ![Top 20 Favorite Taylor Songs - Pie Chart](images/fearless_pie.png)
 
+Some other examples of palette usage are found below:
+
+![Debut Comparison](images/Debut_Comparison.png)
+
+![1989 Comparison](images/1989_Comparison.png)
+
+![Lover Comparison](images/Lover_Comparison.png)
+
 ## Other Functions
 
 If I'm not sure what palette I want to use, I can view palettes this way:
