@@ -26,7 +26,7 @@ list_tayloR_palettes <- function() {
   )
 
   custom_palettes <- names(palettes)
-  short_names <- gsub("\\d+$", "", custom_palettes)
+  short_names <- gsub("_(\\d+)$", "_\\1_N", custom_palettes)
 
   message(paste0("The following color palettes (Taylor's Version) are available: ", paste(short_names, collapse = ", ")))
 }
