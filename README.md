@@ -79,13 +79,13 @@ This produces the following output, a Fearless pie chart of favorite songs by ge
 
 ![Top 20 Favorite Taylor Songs - Pie Chart](images/fearless_pie.png)
 
-Some other examples of palette usage are found below:
+Some other examples of palette usage are found below, including a graph of song danceability versus duration using the Debut palette:
 
 ![Debut Comparison](images/Debut_Comparison.png)
 
-![1989 Comparison](images/1989_Comparison.png)
+And a word cloud of most commonly used words in Taylor's songs using the 1989 palette:
 
-![Lover Comparison](images/Lover_Comparison.png)
+![1989 Comparison](images/1989_Comparison.png)
 
 ## Other Functions
 
