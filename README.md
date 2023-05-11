@@ -47,10 +47,12 @@ songs_countdf <- as.data.frame(songs_count)
 # Rename column 1 to "Album"
 names(songs_countdf)[1] <- "Album"
 
+songs_countdf$Album <- factor(songs_countdf$Album, levels = c("Debut", "Fearless (TV)", "Speak Now (TV)", "Red (TV)", "Nineteen Eighty-Nine", "Reputation", "Lover", "Folklore", "Evermore", "Midnights"))
+
 # Create a bar graph of my favorite songs by album
 ggplot(data = songs_countdf) + 
   geom_bar(aes(x = Album, y = Freq, fill = Album), stat = "identity") + 
-  scale_fill_manual(values = tayloR_palette("fearless_TV2"), guide = "none") + 
+  scale_fill_manual(values = tayloR_palette("all_albums2"), guide = "none") + 
   xlab("Album") + ylab("Number of Songs") + 
   theme_minimal() +
   theme(axis.text.x = element_text(size = 12, angle = 30, hjust = 1)) +
@@ -58,7 +60,7 @@ ggplot(data = songs_countdf) +
   theme(axis.title.x = element_text(size = 14, face = "bold")) +
   theme(axis.title.y = element_text(size = 14, face = "bold")) 
 ```
-This produces the following output, a Fearless bar plot of favorite songs by album:
+This produces the following output, a bar plot of favorite songs by album, with bars colored by era:
 
 ![Top 20 Favorite Taylor Songs - Bar Plot](images/Bar_plot_songs.png)
 
