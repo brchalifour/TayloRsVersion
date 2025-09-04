@@ -45,11 +45,11 @@ tayloR_palette <- function(palette_name, n = NULL) {
   
   if(palette_name == "showgirl2") return(c("#45ae8d", "#949559", "#ccb450", "#a93721", "#6e7f9b", "#10975f", "#b8c27d", "#7e1d17", "#c58470", "#d7d3d4"))
   
-  if(palette_name == "all_albums") return(c("#9BBD4C", "#F0DE42", "#C45AB3", "#9B1D20", "#99B2DD", "#25272D", "#FF85C2", "#94A3B3", "#B87D4B", "#11159c", "#9a958d", "#e1733a")[1:n])
+  if(palette_name == "all_albums") return(c("#9BBD4C", "#F0DE42", "#C45AB3", "#9B1D20", "#99B2DD", "#25272D", "#FF85C2", "#94A3B3", "#B87D4B", "#11159c", "#9a958d", "#e1733a"))
   
-  if(palette_name == "all_albums2") return(c("#8AE9C1", "#FCD757", "#885A89", "#F15025", "#AFC1D6", "#1B3022", "#EDC7CF",  "#86A397", "#524632", "#0B6884", "#d4cbbf", "#ee964b")[1:n])
+  if(palette_name == "all_albums2") return(c("#8AE9C1", "#FCD757", "#885A89", "#F15025", "#AFC1D6", "#1B3022", "#EDC7CF",  "#86A397", "#524632", "#0B6884", "#d4cbbf", "#ee964b"))
   
-  if(palette_name == "karma") return(c("#f69d0d", "#f45608", "#f41c34", "#e2068d", "#c200fb", "#2e005d", "#1957db",  "#7ea3f1", "#b83700", "#fbc55f")[1:n])
+  if(palette_name == "karma") return(c("#f69d0d", "#f45608", "#f41c34", "#e2068d", "#c200fb", "#2e005d", "#1957db",  "#7ea3f1", "#b83700", "#fbc55f"))
 
   if (!(palette_name %in% names(palettes))) {
     stop(paste0("Palette '", palette_name, "' not found."))
@@ -62,4 +62,5 @@ tayloR_palette <- function(palette_name, n = NULL) {
     return(pal[1:min(n, length(pal))])
   }
 }
+
 
