@@ -15,3 +15,6 @@ Imports:
 Collate:
     'tayloR_palette.R'
     'show_all_tayloR_palettes.R'
+    'list_tayloR_palettes.R'
+    'show_tayloR_palette.R'
+    'test_colorblindness.R'
