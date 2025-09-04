@@ -96,7 +96,7 @@ show_all_tayloR_palettes()
 ```
 Which produces the following output:
 
-![All Palettes](images/all_plots.jpeg)
+![All Palettes](images/showall.jpeg)
 
 Or individual palettes this way:
 
