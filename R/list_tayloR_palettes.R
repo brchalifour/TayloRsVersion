@@ -2,12 +2,12 @@ list_tayloR_palettes <- function() {
   palettes <- list(
     debut = tayloR_palette("debut"),
     debut2 = tayloR_palette("debut2"),
-    fearless_TV = tayloR_palette("fearless"),
-    fearless_TV2 = tayloR_palette("fearless2"),
-    speak_now_TV = tayloR_palette("speak_now"),
-    speak_now_TV2 = tayloR_palette("speak_now2"),
-    red_TV = tayloR_palette("red"),
-    red_TV2 = tayloR_palette("red2"),
+    fearless = tayloR_palette("fearless"),
+    fearless2 = tayloR_palette("fearless2"),
+    speak_now = tayloR_palette("speak_now"),
+    speak_now2 = tayloR_palette("speak_now2"),
+    red = tayloR_palette("red"),
+    red2 = tayloR_palette("red2"),
     nineteen_eighty_nine = tayloR_palette("nineteen_eighty_nine"),
     nineteen_eighty_nine2 = tayloR_palette("nineteen_eighty_nine2"),
     reputation = tayloR_palette("reputation"),
@@ -32,4 +32,5 @@ list_tayloR_palettes <- function() {
 
   message(paste0("The following color palettes (Taylor's Version) are available: ", paste(custom_palettes, collapse = ", ")))
 }
+
 
