@@ -8,7 +8,7 @@ This package contains color palettes for R data visualization that are inspired 
 
 ## Available Palettes (From lavender haze to burning red)
 
-Below, here are all of the palettes currently available. These will be updated as Taylor's Versions become available; this most recent update now include Speak Now (TV), which will become availble July 7th!
+Below, here are all of the palettes currently available. These are currently updated through The Life of a Showgirl, which absolutely WILL become my whole personality beginning on October 3rd!
 
 ![All Palettes](images/tay_pals.jpg)
 
@@ -89,7 +89,16 @@ And a word cloud of most commonly used words in Taylor's songs using the 1989 pa
 
 ## Other Functions
 
-If I'm not sure what palette I want to use, I can view palettes this way:
+If I'm not sure what palette I want to use, I can view all palettes this way:
+
+``` r
+show_all_tayloR_palettes()
+```
+Which produces the following output:
+
+![All Palettes](images/all_plots.jpeg)
+
+Or individual palettes this way:
 
 ``` r
 show_tayloR_palette("midnights")
