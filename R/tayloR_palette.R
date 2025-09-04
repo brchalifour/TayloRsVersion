@@ -43,7 +43,7 @@ tayloR_palette <- function(palette_name, n = NULL) {
   
   if(palette_name == "showgirl") return(c("#65a484", "#e1733a", "#aec488", "#566b3f", "#dc501f", "#f89c51", "#8fc5a4", "#c17460", "#6cb2a4",  "#4c4112"))
   
-  if(palette_name == "showgirl2") return(c("#45ae8d", "#949559", "#ccb450", "#a93721", "#6e7f9b", "#10975f", "#b8c27d", "#7e1d17", "#c58470", "#d7d3d4"))
+  if(palette_name == "showgirl2") return(c("#45ae8d", "#0f6945", "#feaa52", "#ec760c", "#b5a3b3", "#b7f7d5", "#b8c27d", "#7e1d17", "#c82b3c", "#dd8c5d"))
   
   if(palette_name == "all_albums") return(c("#9BBD4C", "#F0DE42", "#C45AB3", "#9B1D20", "#99B2DD", "#25272D", "#FF85C2", "#94A3B3", "#B87D4B", "#11159c", "#9a958d", "#e1733a"))
   
@@ -62,5 +62,6 @@ tayloR_palette <- function(palette_name, n = NULL) {
     return(pal[1:min(n, length(pal))])
   }
 }
+
 
 
