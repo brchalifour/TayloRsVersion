@@ -45,7 +45,7 @@ show_tayloR_palette <- function(palette_name) {
 
   # Build plot
   ggplot(data.frame(x = 1:n, y = 1, fill = factor(1:n))) +
-    geom_tile(aes(x = x, y = y, fill = fill), color = "white") +
+    geom_tile(aes(x = x, y = y, fill = fill)) +
     scale_fill_manual(values = cols) +
     theme_void() +
     annotate("text", x = (n / 2) +0.5, y = 1,
