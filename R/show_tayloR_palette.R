@@ -48,9 +48,10 @@ show_tayloR_palette <- function(palette_name) {
     geom_tile(aes(x = x, y = y, fill = fill), color = "white") +
     scale_fill_manual(values = cols) +
     theme_void() +
-    annotate("text", x = n / 2, y = 1.2,
+    annotate("text", x = n / 2, y = 1,
              label = paste0("Palette: '", palette_name, "'"),
-             size = 6, color = "black", fontface = "bold", 
-             hjust = 0.5) +
+             size = 8, color = "white", fontface = "bold", 
+             hjust = 0.5,
+            vjust = 0.5) +
     guides(fill = "none")
 }
