@@ -21,7 +21,6 @@ list_tayloR_palettes <- function() {
     midnights = tayloR_palette("midnights"),
     midnights2 = tayloR_palette("midnights2"),
     ttpd = tayloR_palette("ttpd"),
-    ttpd2 = tayloR_palette("ttpd2"),
     showgirl = tayloR_palette("showgirl"),
     showgirl2 = tayloR_palette("showgirl2"),
     all_albums = tayloR_palette("all_albums"),
@@ -33,3 +32,4 @@ list_tayloR_palettes <- function() {
 
   message(paste0("The following color palettes (Taylor's Version) are available: ", paste(custom_palettes, collapse = ", ")))
 }
+
