@@ -39,18 +39,18 @@ show_tayloR_palette <- function(palette_name) {
   
   require(ggplot2)
   
-  # Get the colors from the palette
-  cols <- palettes[[palette_name]]
-  n <- length(cols)
+ # Get the palette (full length)
+  cols <- tayloR_palette(palette_name)
+  n <- length(cols)  # ensure `n` is defined
 
-  # Display the color palette
-  ggplot2::ggplot(data.frame(x = 1:n, y = 1, fill = factor(1:n))) +
-    geom_tile(aes(x = x, y = y, fill = fill)) +
+  # Build plot
+  ggplot(data.frame(x = 1:n, y = 1, fill = factor(1:n))) +
+    geom_tile(aes(x = x, y = y, fill = fill), color = "white") +
     scale_fill_manual(values = cols) +
     theme_void() +
-    annotate(geom = "text", x = n / 2, y = 1.1,
+    annotate("text", x = n / 2, y = 1.2,
              label = paste0("Palette: '", palette_name, "'"),
              size = 6, color = "black", fontface = "bold", 
-             hjust = 0.5, vjust = 0) +
+             hjust = 0.5) +
     guides(fill = "none")
 }
