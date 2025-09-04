@@ -10,7 +10,7 @@ This package contains color palettes for R data visualization that are inspired 
 
 Below, here are all of the palettes currently available. These are currently updated through The Life of a Showgirl, which absolutely WILL become my whole personality beginning on October 3rd!
 
-![All Palettes](images/tay_pals.jpg)
+![All Palettes](images/alltayloRs.jpg)
 
 ## Installation (Are you ready for it?)
 
