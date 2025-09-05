@@ -101,11 +101,11 @@ Which produces the following output:
 Or individual palettes this way:
 
 ``` r
-show_tayloR_palette("midnights")
+show_tayloR_palette("showgirl")
 ```
 Which produces the following output:
 
-![Midnights Colors](images/midnights.png)
+![Showgirl Colors](images/showgirl.jpeg)
 
 In the spirit of inclusivity, I have added a function to show what palettes look like with different forms of colorblindness. For instance, I can run the following command:
 
