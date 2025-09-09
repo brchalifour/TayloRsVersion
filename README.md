@@ -47,7 +47,7 @@ songs_countdf <- as.data.frame(songs_count)
 # Rename column 1 to "Album"
 names(songs_countdf)[1] <- "Album"
 
-songs_countdf$Album <- factor(songs_countdf$Album, levels = c("Debut", "Fearless (TV)", "Speak Now (TV)", "Red (TV)", "Nineteen Eighty-Nine", "Reputation", "Lover", "Folklore", "Evermore", "Midnights"))
+songs_countdf$Album <- factor(songs_countdf$Album, levels = c("Debut", "Fearless", "Speak Now", "Red", "Nineteen Eighty-Nine", "Reputation", "Lover", "Folklore", "Evermore", "Midnights", "The Tortured Poets Department"))
 
 # Create a bar graph of my favorite songs by album
 ggplot(data = songs_countdf) + 
