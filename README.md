@@ -62,7 +62,7 @@ ggplot(data = songs_countdf) +
 ```
 This produces the following output, a bar plot of favorite songs by album, with bars colored by era:
 
-![Top 30 Favorite Taylor Songs - Bar Plot](images/Favorite Song Barplot.jpeg)
+![Top 30 Favorite Taylor Songs - Bar Plot](images/Favorite_Song_Barplot.jpeg)
 
 Or, I can look at my favorite songs by album genre:
 
@@ -72,12 +72,12 @@ genre_count <- table(songs$Genre)
 
 # Create a pie chart of my favorite songs by album genre:
 par(mar=c(0,0,2,2)) # adjust the margin size
-pie(genre_count, main="My Favorite TS Songs by Genre", col = tayloR_palette("fearless_TV2"), radius = 1.5)
+pie(genre_count, main="My Favorite TS Songs by Genre", col = tayloR_palette("midnights2"), radius = 0.7)
 title(main="My Favorite TS Songs by Genre", cex.main = 1.2) # adjust the title size
 ```
-This produces the following output, a Fearless pie chart of favorite songs by genre:
+This produces the following output, a Midnights pie chart of favorite songs by genre:
 
-![Top 20 Favorite Taylor Songs - Pie Chart](images/fearless_pie.png)
+![Top 30 Favorite Taylor Songs - Pie Chart](images/midnights_pie.jpeg)
 
 Some other examples of palette usage are found below, including a graph of song danceability versus duration using the Debut palette:
 
