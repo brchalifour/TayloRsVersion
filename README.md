@@ -28,7 +28,7 @@ list_tayloR_palettes()
 
 ## Examples (Look what you made me do)
 
-This is a basic example which shows you how to use TayloRsVersion. For fun, let's use data on my personal top 20 favorite Taylor songs:
+This is a basic example which shows you how to use TayloRsVersion. For fun, let's use data on my personal top 30 favorite Taylor songs:
 
 ``` r
 # Run once: 
@@ -62,7 +62,7 @@ ggplot(data = songs_countdf) +
 ```
 This produces the following output, a bar plot of favorite songs by album, with bars colored by era:
 
-![Top 20 Favorite Taylor Songs - Bar Plot](images/Bar_plot_songs.png)
+![Top 30 Favorite Taylor Songs - Bar Plot](images/Favorite Song Barplot.jpeg)
 
 Or, I can look at my favorite songs by album genre:
 
